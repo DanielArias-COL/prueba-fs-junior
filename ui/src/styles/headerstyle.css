@@ -1,0 +1,36 @@
+.header {
+    background-color: rgb(3, 17, 27);
+    padding: 0 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    height: 100px;
+    width: 120px;
+}
+
+.header {
+    background-color: rgb(3, 17, 27);
+    padding: 0 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    height: 100px;
+    width: 120px;
+}
+
+@media (min-width: 1560px) {
+    .header {
+        justify-content: center;
+    
+    }
+
+    .header__logo {
+        margin-right: 1050px;
+    }
+}

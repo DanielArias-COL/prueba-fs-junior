@@ -1,0 +1,54 @@
+.form {
+    font-family: sans-serif;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #585454;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.form__title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.form__form {
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 600px;
+    width: 100%;
+    background-color: #e5e7e9;
+}
+
+
+
+.form__input-container :is(input, textarea){
+    width: 100%;
+    padding: 9px 6px;
+    font-size: 16px;
+    margin: 4px;
+    border: none;
+    box-shadow: 2px 2px 4px #0003;
+    border-radius: 5px;
+}
+
+.form__input-container textarea {
+    resize: none;
+    min-height: 160px;
+    font-family: inherit;
+}
+
+.form__input-container input[type="submit"] {
+    color: #fff;
+    background-color: #48e;
+    padding: 12px;
+    width: 100%;
+
+}
+
+
+
+
